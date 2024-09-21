@@ -37,7 +37,10 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -182,4 +185,6 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/usr/keylayout/mione-keypad.kl:system/usr/keylayout/mione-keypad.kl \
   vendor/xiaomi/mione_plus/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-  vendor/xiaomi/mione_plus/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so
+  vendor/xiaomi/mione_plus/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so
