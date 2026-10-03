@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/xiaomi/mione_plus/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
   vendor/xiaomi/mione_plus/proprietary/lib/libgpsone_bit_api.so:system/lib/libgpsone_bit_api.so \
-  vendor/xiaomi/mione_plus/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/xiaomi/mione_plus/proprietary/bin/thermald:system/bin/thermald \
   vendor/xiaomi/mione_plus/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
