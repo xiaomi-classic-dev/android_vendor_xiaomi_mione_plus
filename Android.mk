@@ -35,3 +35,15 @@ LOCAL_SRC_FILES := proprietary/lib/libacdbmapper.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
+
+# Android 8 removed STLport; retain the CM14 source-built ABI for old blobs.
+include $(CLEAR_VARS)
+LOCAL_MODULE := libstlport
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES := proprietary/lib/libstlport.so
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_STRIP_MODULE := false
+include $(BUILD_PREBUILT)
