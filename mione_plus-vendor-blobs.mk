@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libv8.so:system/lib/libv8.so \
-  vendor/xiaomi/mione_plus/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.vendor.msm8660.so \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/xiaomi/mione_plus/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
