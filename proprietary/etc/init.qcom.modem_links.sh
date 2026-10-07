@@ -41,9 +41,9 @@ cd /firmware/image
 fwfiles=`ls modem* q6* playrdy*`
 
 # Check if the links with similar names
-# have been created in /system/etc/firmware
+# have been created in /vendor/firmware
 
-cd /system/etc/firmware
+cd /vendor/firmware
 linksNeeded=0
 
 # For everyfile in fwfiles check if
@@ -78,13 +78,13 @@ case $linksNeeded in
       chmod 4755 /system/bin/diag_mdlog
       chmod 4755 /system/bin/btwlancoex
       chmod 0755 /system/bin/ip
-      chmod 4755 /system/bin/usbhub
-      chmod  755 /system/bin/usbhub_init
+      chmod 4755 /vendor/bin/usbhub
+      chmod  755 /vendor/bin/usbhub_init
 
       case `ls modem.mdt 2>/dev/null` in
          modem.mdt)
             for imgfile in modem*; do
-               ln -s /firmware/image/$imgfile /system/etc/firmware/$imgfile 2>/dev/null
+               ln -s /firmware/image/$imgfile /vendor/firmware/$imgfile 2>/dev/null
             done
             break;;
         *)
@@ -96,7 +96,7 @@ case $linksNeeded in
       case `ls q6.mdt 2>/dev/null` in
          q6.mdt)
             for imgfile in q6*; do
-               ln -s /firmware/image/$imgfile /system/etc/firmware/$imgfile 2>/dev/null
+               ln -s /firmware/image/$imgfile /vendor/firmware/$imgfile 2>/dev/null
             done
             break;;
          *)
@@ -106,7 +106,7 @@ case $linksNeeded in
       case `ls playrdy.mdt 2>/dev/null` in
          playrdy.mdt)
             for imgfile in playrdy*; do
-               ln -s /firmware/image/$imgfile /system/etc/firmware/$imgfile 2>/dev/null
+               ln -s /firmware/image/$imgfile /vendor/firmware/$imgfile 2>/dev/null
             done
             break;;
          *)

@@ -31,7 +31,7 @@
 mount -o rw,remount,barrier=1 /system
 
 # Run modem link script
-/system/bin/sh /system/etc/init.qcom.modem_links.sh
+/system/bin/sh /vendor/etc/init.qcom.modem_links.sh
 
 # Run mdm link script
 /system/bin/sh /system/etc/init.qcom.mdm_links.sh
