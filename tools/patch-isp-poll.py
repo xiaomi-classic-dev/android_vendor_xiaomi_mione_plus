@@ -20,7 +20,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('blob', nargs='?', type=Path, default=
                         Path(__file__).resolve().parent.parent /
-                        'proprietary/lib/liboemcamera.so')
+                        'proprietary/vendor/lib/liboemcamera.so')
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
     data = args.blob.read_bytes()

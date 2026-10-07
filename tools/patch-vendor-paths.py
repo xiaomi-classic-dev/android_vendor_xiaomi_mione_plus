@@ -66,7 +66,7 @@ def main():
     args = parser.parse_args()
     pending = []
     for relative, (original, expected, paths) in PATCHES.items():
-        blob = args.base / relative
+        blob = args.base / "vendor" / relative
         data = blob.read_bytes()
         digest = hashlib.sha256(data).hexdigest()
         if digest == expected:

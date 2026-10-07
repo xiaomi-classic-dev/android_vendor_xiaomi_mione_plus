@@ -9,7 +9,7 @@ LOCAL_MODULE_OWNER := xiaomi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/lib/libaudioalsa.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libaudioalsa.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
@@ -20,7 +20,7 @@ LOCAL_MODULE_OWNER := xiaomi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/lib/libacdbloader.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libacdbloader.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
@@ -31,7 +31,7 @@ LOCAL_MODULE_OWNER := xiaomi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/lib/libacdbmapper.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libacdbmapper.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
@@ -43,7 +43,7 @@ LOCAL_MODULE_OWNER := xiaomi
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES := proprietary/lib/libstlport.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libstlport.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
