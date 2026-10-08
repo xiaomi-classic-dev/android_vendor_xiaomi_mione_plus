@@ -47,3 +47,25 @@ LOCAL_SRC_FILES := proprietary/vendor/lib/libstlport.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnv
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnv.so
+LOCAL_VENDOR_MODULE := true
+LOCAL_STRIP_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := liboncrpc
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES := proprietary/vendor/lib/liboncrpc.so
+LOCAL_VENDOR_MODULE := true
+LOCAL_STRIP_MODULE := false
+include $(BUILD_PREBUILT)
