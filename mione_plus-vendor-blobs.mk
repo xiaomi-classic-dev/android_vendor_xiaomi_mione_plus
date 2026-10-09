@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
-  vendor/xiaomi/mione_plus/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-  vendor/xiaomi/mione_plus/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/libv8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libv8.so \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/hw/sensors.vendor.msm8660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8660.so \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/egl/eglsubAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglsubAndroid.so \
@@ -60,8 +58,6 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/vendor/etc/wifi/nvram.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt \
   vendor/xiaomi/mione_plus/proprietary/vendor/etc/init.qcom.modem_links.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.modem_links.sh \
   vendor/xiaomi/mione_plus/proprietary/vendor/etc/init.qcom.post_fs.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qcom.post_fs.sh \
-  vendor/xiaomi/mione_plus/proprietary/vendor/lib/libdsm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsm.so \
-  vendor/xiaomi/mione_plus/proprietary/vendor/lib/libqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqueue.so \
   vendor/xiaomi/mione_plus/proprietary/vendor/bin/qmiproxy:$(TARGET_COPY_OUT_VENDOR)/bin/qmiproxy \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
   vendor/xiaomi/mione_plus/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
