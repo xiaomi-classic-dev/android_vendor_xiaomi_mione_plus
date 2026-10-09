@@ -69,3 +69,5 @@ LOCAL_SRC_FILES := proprietary/vendor/lib/liboncrpc.so
 LOCAL_VENDOR_MODULE := true
 LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
+
+include $(LOCAL_PATH)/prebuilt/webview/Android.mk
