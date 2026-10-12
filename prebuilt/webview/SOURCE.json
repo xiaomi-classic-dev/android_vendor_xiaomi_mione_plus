@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm",
+  "revision": "5dbebc6008ac88674da92911bf8c633aa5852ce5",
+  "version_name": "120.0.6099.230",
+  "apk_sha256": "508d90fbe0a2600199c7f330872e2950eebf025bc388f0163b5f39ab26e7aac6",
+  "jni": [
+    {
+      "path": "lib/armeabi-v7a/libwebviewchromium.so",
+      "sha256": "63ad798e097bf1add449e55b3abe689a42274b720d690569aa7d0dbfed1ad7f2",
+      "size": 71466204
+    },
+    {
+      "path": "lib/armeabi-v7a/libcrashpad_handler_trampoline.so",
+      "sha256": "aa5062020be0c972ecdd5b70d2fbdea8addcc88ec34106b74b18fb43cddc35f1",
+      "size": 3196
+    }
+  ],
+  "signing": "DEFAULT_SYSTEM_DEV_CERTIFICATE",
+  "workaround": "avoid_one_component_egl_images is present in the compiled Chromium 120 library",
+  "runtime_validation": "Not performed on MiOne"
+}
