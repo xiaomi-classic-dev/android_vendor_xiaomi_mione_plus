@@ -1,0 +1,78 @@
+{
+  "scope": "Only PT_INTERP strings change; ELF type, load addresses, machine code and file size are preserved.",
+  "interpreter": "/system/bin/mld",
+  "implementation": "device/xiaomi/mione_plus/compat/linker",
+  "original_vendor": "stock MIUI 4.12.5 Android 4.1.2; existing vendor path fixups retained",
+  "files": [
+    {
+      "file": "vendor/bin/bridgemgrd",
+      "before_sha256": "9a47de0c11dec3eaa16703ff7881a7740f877c5b93c11dfb2dce717340b3f527",
+      "after_sha256": "1bdf6912107649c28d11e471f4905512ec02f32d97452add0d73dcfd4a4b4e33",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/cnd",
+      "before_sha256": "5a6bdd7b4263df4d998f6d2c85222381d8205c15f9f4aa453e895487aab93657",
+      "after_sha256": "99e2c0cad49333e998a513d458870ea6e1d92921d30699ac75a2affad3f87aaf",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/gpsone_daemon",
+      "before_sha256": "60337d55dd4dd4293869d93ac6c23ecf2ab85510ab360bb4a4a373d1c91a6d8c",
+      "after_sha256": "342f0a5da99104756755217add74c2c13b7cd986060efbbe1c03f982780d5746",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/netmgrd",
+      "before_sha256": "82597155728f8fb8fedce5cfc1e2e98f5b59cd7bd3bb955ad72922929735e03c",
+      "after_sha256": "ea285fe1c22d0df1c7a7711563b0823958112725f328e3d0d838ec65251a7d9c",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/port-bridge",
+      "before_sha256": "3ca5de04e52f9a1a6a2f72c381ac50d3b0eb834c03b38b7693ce071c4d95b01c",
+      "after_sha256": "8bb192c519a975ff1f938aa0445097630ca258a9f496be6ee4a8cb06826c2d96",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/qmiproxy",
+      "before_sha256": "f11ff1435aff48168d237b1316cb54f08770b678ff846ee7a788e3900d75827d",
+      "after_sha256": "ba57cd68e3b7e85088883e4ad3ee293378252de38489636ef8f487865f6c6995",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/qmuxd",
+      "before_sha256": "9ba917cdd74c6ecf54b657134c1329837b0206d3e23694536a525298c2b83f54",
+      "after_sha256": "012bff5a04eb213a328fea9d93d37f5a64513a15e7f68ef52b3e3caf224f074e",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/rmt_storage",
+      "before_sha256": "d022833bc9793515222db4cf96fb42d977a6c5395af889f95b2ecf6d2ea0096c",
+      "after_sha256": "5c2a6be5f7f1b5dbfd95ed878f89a15a697b40ba8ad3033a11ac7e8b33aa963b",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/usbhub",
+      "before_sha256": "2a8a83c597119c70cac7c46ada77e5b277cb6a40c9eef629c100345d18bc6a1b",
+      "after_sha256": "16c4be472ea3ec6d1d2c71f0d6e0d0b3220069b1a946f5226261b0d6c67c0bd5",
+      "interp_offset": 276,
+      "interp_size": 19
+    },
+    {
+      "file": "vendor/bin/usbhub_init",
+      "before_sha256": "235d23c46b96bce8c3bb4a372f82ef61d3f24b4e131590d2f13e194fd15b2d4f",
+      "after_sha256": "0a12a6b35287377805d13517eb96cd2afbc66235824bcf5d4a21e9af9220884f",
+      "interp_offset": 276,
+      "interp_size": 19
+    }
+  ]
+}
